@@ -16,18 +16,28 @@ div.row {padding: 10px;}
 
 
 
-.container {background-color: beige;}
+.container {background-color: beige;
+    margin-bottom: 30px;}
 
-.footer > .container {text-align:center;
+.container2 {background-color: beige;
+    margin-left: 110px;
+    margin-right:  110px;
+    margin-top: 30px;
+    padding: 10px; }
+
+.footer > .container3 {text-align:center;
     background-color: lightblue;
     clear: both;
     padding: none;
-    margin-top: 10px;
+    margin-top: 30px;
+    margin-left: 110px;
+    margin-right: 110px
     ;}
 
-.form-row {margin-top: 50px;}
+form > label {margin-top: 10px;}
 
-.form-row > .btn {padding: 20px;
-                    margin: auto;}
+.form-row > button {padding: 10px;
+                    margin-left: 120px;
+                    margin-right: 120px;}
 
-footer {margin-top: 50px;}
+footer {margin-top: 70px;}

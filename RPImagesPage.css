@@ -8,15 +8,24 @@ body {background-image: url(memphis-mini\ copy.png);
 h1 {margin-top: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;}
 
-img {width: 600px;
-    height: 600px;}
 
-ul > li:not(:last-child) {float:right; border-right: 1px solid red;
+ul > li:not(:last-child) {float:right; 
+    border-right: 1px solid red;
 }
 
 
 .container {background-color: beige;}
 
+.wrapper {background-color: whitesmoke;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px; 
+ }
+
+img {width: 33%;
+    height: 33%;}
 
 .card-group {margin-left: auto;
         margin-right: auto;
@@ -24,6 +33,7 @@ ul > li:not(:last-child) {float:right; border-right: 1px solid red;
         width: 80%; 
         height:auto;
     background-color: beige;
+    padding: 20px lightblue; 
 }
 
 .card {height:600px;
